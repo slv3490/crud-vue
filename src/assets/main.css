@@ -1,0 +1,89 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
+
+form {
+  min-width: 600px; 
+}
+h3 {
+  font-size: 30px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+main {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-align: left;
+
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 30px;
+  border: 2px solid #00bd7e;
+  border-radius: 20px;
+  background-color: #030303;
+  color: #00bd7e;
+  min-width: 600px;
+}
+.form-section {
+  margin-top: 20px;
+}
+label {
+  font-size: 20px;
+  margin-right: 20px;
+}
+input {
+  padding: 20px 10px;
+  width: 100%;
+  background-color: #005d3e;
+  border-top: 3px solid #005d3e;
+  border-left: 3px solid #005d3e;
+  border-bottom: 3px solid #006845;
+  border-right: 3px solid #006845;
+  color: white;
+  margin-top: 3px;
+  font-size: 16px;
+}
+input::placeholder {
+  color: white;
+}
+input:focus {
+  border: 3px solid #00bd7e;
+  padding: 10px;
+  outline: none;
+  padding: 20px 10px;
+}
+
+button {
+  background-color: #00bd7e;
+  margin-top: 25px;
+  width: 100%;
+  padding: 20px 10px;
+  border: none;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+}
