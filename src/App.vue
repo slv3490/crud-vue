@@ -10,8 +10,6 @@ const logout = async () => {
 
   router.push({name: "login"})
 }
-
-console.log(localStorage.getItem("token"))
 </script>
 
 <template>
